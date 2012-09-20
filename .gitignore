@@ -1,0 +1,37 @@
+# Grails stuff
+.metadata
+*.iws
+*Db.properties
+*Db.script
+.settings
+eclipse
+stacktrace.log
+target
+target-eclipse
+/courses/plugins
+/courses/web-app/plugins
+/courses/web-app/WEB-INF/classes
+.classpath
+
+DataSource.groovy
+application.properties
+
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+
+# CodeNarc
+CodeNarcReport.*
+
+.DS_Store
+*~
+\#*
+
+# Compass
+.sass-cache
+/courses/web-app/css/courses/
+/courses/web-app/css/sass/

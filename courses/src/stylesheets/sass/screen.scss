@@ -1,0 +1,137 @@
+$light-grey: #f4f4f2;
+
+$link-color: #2c74d5;
+
+$input-border: #FBCB09;
+$input-color: #C77405;
+$input-background: #FDF5CE;
+
+
+.clear {
+    clear: both;
+}
+
+label {
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 80px
+}
+
+.hero-unit {
+    color: snow;
+    margin-top: 60px;
+    background-image: url("http://placekitten.com/1300/230");
+    height: 110px;
+
+    .logo {
+        float: left;
+        margin-right: 30px;
+        margin-top: -40px;
+
+        img {
+            height: 200px;
+            width: 200px;
+        }
+    }
+
+    .tagline {
+        font-family: Lobster2, sans-serif;
+        font-size: 22px;
+    }
+}
+
+/* Override for the login menu */
+.dropdown-menu {
+    border-radius: 15px;
+    width: 230px;
+    font-size: 12px;
+    background-color: $light-grey;
+
+    input[type="text"], input[type="password"] {
+        margin-left: 10px;
+        width: 180px;
+        height: 15px;
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    .btn-primary {
+        clear: both;
+        margin-bottom: 5px;
+        margin-left: 10px
+    }
+
+    div {
+        a {
+            text-decoration: none;
+            color: $link-color;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+/* Override css of labels of forms */
+.control-label{
+   color: gray;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    padding-bottom: 40px;
+}
+
+.img-loading{
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.myhover{
+  border-radius:5px; 
+}
+.myhover:hover{
+  background-color:#b5e5fc;
+  cursor:pointer;
+}
+
+.heading-notify{
+  font-weight:bold;
+  padding-top:6px;
+}
+
+.spacer{
+  clear:both;
+}
+
+.note-list{
+  list-style-type:decimal;
+}
+
+.note{
+  width:100px;
+}
+
+.note:hover{
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+
+.notification{
+  width:23px;
+  height:23px;
+  background-image: url("../../../images/courses/notification.png");
+  background-size:100%;
+  background-repeat:no-repeat;
+  background-position:top center;
+  color: white;
+  text-align:center;
+  font-size:13px;
+  padding-top:3px;
+}
